@@ -1,3 +1,3 @@
 ### 수정 사항
-data("mpg") -> data(mpg)
-%>% function : and than -> and then
+<p> data("mpg") -> data(mpg) </p>
+<p> %>% function : and than -> and then </p>
