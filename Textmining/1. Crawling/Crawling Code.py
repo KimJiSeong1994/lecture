@@ -10,8 +10,8 @@ drive_path = "/Users/gimjiseong/Downloads/selenium/" # chrome drive path
 driver = webdriver.Chrome(drive_path + "chromedriver")
 driver.get("https://everytime.kr/login") # 웹 주소로 이동
 
-id_list = ["kbu1125"]
-ps_list = ["qjfjrdjaak2"]
+id_list = [ " ***** " ] # id 입력
+ps_list = [" ***** "] # pw 입력 
 
 input_ID = driver.find_element_by_xpath('//*[@id="container"]/form/p[1]/input')
 input_ID.send_keys(id_list)
